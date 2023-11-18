@@ -1,0 +1,104 @@
+Pre-requisites
+
+Text-Editor (Atom, VS Code, Sublime Text, Brackets)
+Web Browser (Chrome, MS Edge, Safari, FireFox)
+
+
+
+To-Do
+1. Build my first basic web page (Done)
+2. Create a Registration form (Done)
+3. Build a responsive website (Half-Done)
+4. Build a Landing Page of a Product (Still Processing)
+
+
+ <!-- <h1>BoostStrap Tutorial</h1>
+        <h2 class="h6">This is an h2 tag with the h6 class</h4>
+        <h2>This is an h2 tag</h2>                  
+        <h3>This is an h3 tag</h3>
+        
+        <h1 class="display-1">display 1 heading</h1>
+        <h1 class="display-2">display 2 heading</h1>
+        <h1 class="display-3">display 3 heading</h1>
+        <h1 class="display-4">display 4 heading</h1>
+        <h1 class="display-5">display 5 heading</h1>
+        
+        <p>jc ewmewv ewjvwv wv</p>
+        <p class="lead">ecewjewflea,cke c</p>
+        <p class="lead text-center">fjenfjekfbejkf</p>
+        <p class="lead text-end">fjenfjekfbejkf</p>
+        <p class="lead text-start">fjenfjekfbejkf</p>
+
+        <p class="text-decoration-underline">hbioeeubhj</p>
+        <p class="text-decoration-line-through fw-bold">Cancelled</p>
+        
+
+        <h1>Theme Colors</h1>
+        <p class="text-primary">Theme primary color</p>
+        <p class="text-secondary">Theme secondary color</p>
+        <p class="text-info">Theme info color</p>
+        <p class="text-warning">Theme warning color</p>
+        <p class="text-success">Theme success color</p>
+        <p class="text-danger">Theme danger color</p>
+        <p class="text-dark">Theme dark color</p>
+
+        <h1>Background Colors</h1>
+        <p class="text-white bg-primary">Primary background</p>
+        <p class="text-white bg-secondary">Secondary background</p>
+        <p class="text-white bg-info">Info background</p>
+        <p class="text-white bg-success">Success background</p>
+        <p class="text-white bg-danger">Danger background</p>
+        <p class="text-white bg-warning">Warning background</p>
+        <p class="text-white bg-dark">Dark background</p>
+
+        <h1>Buttons</h1>  
+        <button class="btn btn-primary">Primary button</button>
+        <button class="btn btn-secondary">Secondary button</button>
+        <button class="btn btn-info">Info button</button>
+        <button class="btn btn-warning">Warning button</button>
+        <button class="btn btn-success">Success button</button>
+        <button class="btn btn-danger">Danger button</button>
+        <button class="btn btn-dark">Dark button</button>
+        <button class="btn btn-light">Light button</button>
+
+       <h1>Links as buttons</h1>
+       <a href="../Web/animations.html" class="btn btn-primary">Animations</a>
+       <a href="../Image/wallpaperflare.com_wallpaper (1) (5).jpg" class="btn btn-success">AI Research lab</a>
+       <a href="../Web/index1.html" class="btn btn-info">Form</a>
+         
+        <h1>Links as Outline Buttons</h1>
+        <button class="btn btn-outline-primary">Welcome!</button>
+        <button class="btn btn-outline-warning">Caution!</button>
+        <button class="btn btn-outline-danger">Stay Out!</button>
+        <button class="btn btn-outline-secondary">Empty!</button>
+        <a href="../Image/wallpaperflare.com_wallpaper (9).jpg" class="btn btn-outline-primary">Photo</a>
+
+        <h1>Button Groups</h1>
+        <div class="btn-group">
+            <a href="../Image/Picsart_Big G.png" class="btn btn-outline-secondary">Big G</a>
+            <a href="../Image/Picsart_Mario.png" class="btn btn-outline-primary">Mario</a>
+            <a href="../Image/Picsart_Daisy.png" class="btn btn-outline-info">Daisy</a>
+        </div>
+
+        <div class="container m-5">
+            jkbxunakjx hjwnsxponwcyuvewaiockawosbawucjaw cwqjspwkfdiubwefhpwojinbcb wmfpelfefnenfjnjkdbywbduwvf
+            dnfmejfblfmjfbuwmwybcmxmcoenbybdkwmodinduywbfiofiebenfokiebfjefbywtvdwln
+        </div>
+
+        <div class="m-5 p-3 border-start border-danger border-5">Tap for more info!</div>
+
+
+        <div class="container m-5">
+            <div class="row  justify-content-center">
+                <div class="col-sm-4 col-lg-6">
+                    <div class="p-5 bg-danger text-light">Klaus</div>
+                </div>
+                <div class="col-sm-4 col-lg-3">
+                    <div class="p-5 bg-warning text-light">Elijah</div>
+                </div>
+                <div class="col-sm-4 col-lg-3">
+                    <div class="p-5 bg-info text-light">Rebekah</div>
+                </div>
+            </div>
+        </div>
+         -->

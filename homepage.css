@@ -1,0 +1,158 @@
+/* Master Styles */
+body{
+    margin: 0px;
+}
+
+/* Nav Styles */
+.nav-wrapper{
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+}
+
+.left-side{
+    display: flex;
+}
+
+.active-nav-link a{
+    color:black !important;
+}
+
+.nav-wrapper > .left-side > div {
+    margin:20px;
+    font-size: 0.9em;
+}
+
+.nav-link-wrapper{
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+    color: black;
+}
+
+/* Portfolio Styles */
+.portfolio-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper{
+    position: relative;
+}
+
+.portfolio-img-background{
+ height:350px;
+ width: 100%;
+ background-size: cover;
+ background-position: top;
+ background-repeat: no-repeat;
+}
+
+.img-text-wrapper{
+    position: absolute;
+    top:0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo-wrapper img{
+    width: 30%;
+    margin-top:100px;
+}
+
+.img-text-wrapper:hover .subtitle{
+    font-weight: 1000;
+    font-family: cursive;
+    text-transform: uppercase;
+    color:white;
+}
+
+.img-text-wrapper .subtitle{
+    color:transparent;
+    margin-bottom:50px;
+}
+
+.img-fade{
+    transition: 1s;
+    filter:brightness(20%);
+}
+
+.brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* About Page */
+.two-column-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img{
+    width:100%;
+}
+
+.profile-image-wrapper img:hover{
+    position: relative;
+    bottom:5px;
+}
+
+.profile-content-wrapper{
+    padding:30px;
+    color:black;
+    text-shadow:2px 2px 2px white;
+    font-family: cursive;
+}
+
+.profile-content-wrapper h1{
+    color:blue;
+    text-shadow:black 2px 2px 2px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+/* .three-column-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+/* .firstone h1{
+    padding: 7px;
+    color:blue;
+    text-shadow:black 2px 2px 2px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.list {
+    margin:10px;
+    padding:10px;
+    color:black;
+    text-shadow:2px 2px 2px white;
+    font-family: cursive;
+}
+
+.secondone h1{
+    color:blue;
+    text-shadow:black 2px 2px 2px;
+    font-family: cursive;
+    text-transform: uppercase;
+} */
+

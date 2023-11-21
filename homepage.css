@@ -14,8 +14,11 @@ body{
     display: flex;
 }
 
+.right-side > div{
+    color:white
+}
 .active-nav-link a{
-    color:black !important;
+    color:gold !important;
 }
 
 .nav-wrapper > .left-side > div {
@@ -30,17 +33,13 @@ body{
 
 .nav-link-wrapper a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: grey;
+    color: white;
     font-weight: bold;
     text-decoration: none;
 }
 
-.nav-link-wrapper:hover{
-    border-bottom: 1px solid black;
-}
-
 .nav-link-wrapper a:hover{
-    color: black;
+    font-size: large;
 }
 
 /* Portfolio Styles */
@@ -117,18 +116,24 @@ body{
 
 .profile-content-wrapper{
     padding:30px;
-    color:black;
-    text-shadow:2px 2px 2px white;
-    font-family: cursive;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .profile-content-wrapper h1{
-    color:blue;
-    text-shadow:black 2px 2px 2px;
-    font-family: cursive;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
 }
 
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact{
+    color:white;
+}
 /* .three-column-wrapper{
     display:grid;
     grid-template-columns: 1fr 1fr;

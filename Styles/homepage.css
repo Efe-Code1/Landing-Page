@@ -129,6 +129,8 @@ body{
 .contact{
     display: flex;
     justify-content: space-evenly;
+    background-color: color-mix(in hsl shorter hue, black 20%, yellow 20%);
+    padding:20px;
 }
 
 #contact{

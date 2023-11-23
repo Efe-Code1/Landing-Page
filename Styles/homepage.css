@@ -1,6 +1,6 @@
 /* Master Styles */
 body{
-    margin: 0px;
+    margin: 0;
 }
 
 /* Nav Styles */
@@ -135,6 +135,16 @@ body{
 
 #contact{
     color:white;
+}
+
+@media screen and (max-width: 1000px){
+    .two-column-wrapper{
+        display:inline-block;
+    }
+    .nav-wrapper{
+        padding: 0;
+    }
+    
 }
 /* .three-column-wrapper{
     display:grid;

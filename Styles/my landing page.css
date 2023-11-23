@@ -68,17 +68,22 @@ body{
 li.dropdownIcon{
     display:none;
 }
-@media screen and (max-width:800px){
-    .left-side{
-        display: grid;
+@media screen and (max-width:1000px){
+    left-side:not(:nth-child(1)){
+        display:none;
     }
-    li:not(:nth-child(1)){
+    .lets{
+        display: inline-block;
+        padding: 0;
+    } 
+}  
+    /* li:not(:nth-child(1)){
         display:none;
     }
     li.dropdownIcon{
         display:block;
         float:right;
     }
-}
+} */
 
 

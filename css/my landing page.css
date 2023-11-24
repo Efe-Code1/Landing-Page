@@ -6,7 +6,7 @@ body{
     height:100%;
     background-position: top;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 
 .nav-wrapper{
@@ -103,7 +103,7 @@ body{
         height:100%;
         background-position: top;
         background-size: cover;
-        
+        background-repeat: repeat-y;
     }
 
 }  

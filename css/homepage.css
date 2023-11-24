@@ -18,7 +18,7 @@ body{
     color:white
 }
 .active-nav-link a{
-    color:gold !important;
+    border-bottom: 3px solid aliceblue !important;
 }
 
 .nav-wrapper > .left-side > div {
@@ -26,20 +26,18 @@ body{
     font-size: 0.9em;
 }
 
-.nav-link-wrapper{
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;
-}
 
 .nav-link-wrapper a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     font-weight: bold;
     text-decoration: none;
+    padding: 13px;
 }
 
 .nav-link-wrapper a:hover{
-    font-size: large;
+    background-color: #66caff;
+    color:black
 }
 
 /* Portfolio Styles */
@@ -95,9 +93,6 @@ body{
     filter:brightness(20%);
 }
 
-.brand{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 /* About Page */
 .two-column-wrapper{
@@ -138,6 +133,11 @@ body{
 }
 
 @media screen and (max-width: 1000px){
+    .nav-wrapper{
+        padding: 0;
+        display: block
+    }
+    
     .two-column-wrapper{
         display:inline-block;
     }

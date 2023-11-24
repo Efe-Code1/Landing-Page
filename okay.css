@@ -1,0 +1,175 @@
+/* Defaults */
+header, nav, footer{
+    display:block;
+}
+
+body{
+    margin: 0;
+    background-image: url(Boats.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width:100%;
+    margin:auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.row{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+/* Nav Bar */
+nav{
+    margin: 0;
+    width:100%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li{
+   float: left;
+   list-style: none;
+}
+
+ul.topnav li.topnav-right{
+    float: right;
+}
+
+ul.topnav li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+ul.topnav li a:hover{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+}
+
+ul.topnav li.dropdownIcon{
+    display:none;
+}
+
+/* Custom Styles */
+div.leftSide-col{
+    margin-left: 30%;
+}
+
+h1.large{
+    color:aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form h2{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type="text"]{
+    font-size: 15px;
+    width: 400px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+input[type="password"]{
+    font-size: 15px;
+    width: 400px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+/* Mobile */
+@media screen and (max-width:1000px){
+    ul.topnav li:not(:nth-child(1)){
+        display:none;
+    }
+
+    ul.topnav li.dropdownIcon{
+        display:block;
+        float:right;
+    }
+
+    ul.topnav.responsive li.dropdownIcon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.responsive{
+        position: relative;
+    }
+
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+    }
+
+    ul.topnav.responsive li a{
+        display: block;
+        text-align: left;
+    }
+
+
+    .col-6{
+        width:100%;
+        margin:0;
+    }
+
+    div.leftSide-col,
+    div.rightSide-col{
+        margin: 15px;
+    }
+
+    input[type="text"]{
+        width: 300px;
+    }
+
+    input[type="password"]{
+        width: 300px;
+    }
+    
+    .videoContainer iframe{
+        width:100%;
+    }
+}
+
+
+
+
+
+

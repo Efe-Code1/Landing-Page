@@ -32,7 +32,7 @@ body{
     color: white;
     font-weight: bold;
     text-decoration: none;
-    padding: 13px;
+    padding: 10px;
 }
 
 .nav-link-wrapper a:hover{
@@ -132,7 +132,7 @@ body{
     color:white;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 500px){
     .nav-wrapper{
         padding: 0;
         display: block
@@ -143,6 +143,9 @@ body{
     }
     .nav-wrapper{
         padding: 0;
+    }
+    .container{
+        width: 100%;
     }
     
 }

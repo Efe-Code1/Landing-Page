@@ -18,9 +18,6 @@ body{
     display: flex;
 }
 
-.active-nav-link a{
-    color:black !important;
-}
 
 .nav-wrapper > .left-side > div {
     font-size: 0.9em;

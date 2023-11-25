@@ -18,7 +18,7 @@ body{
     color:white
 }
 .active-nav-link a{
-    border-bottom: 3px solid aliceblue !important;
+    border-bottom: 2px solid aliceblue !important;
 }
 
 .nav-wrapper > .left-side > div {
@@ -145,8 +145,13 @@ body{
         padding: 0;
     }
     .container{
-        width: 100%;
+        display: block;
     }
+
+    .profile-content-wrapper{
+        text-align: justify;
+    }
+    
     
 }
 /* .three-column-wrapper{

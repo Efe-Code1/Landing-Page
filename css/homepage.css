@@ -124,7 +124,6 @@ body{
 .contact{
     display: flex;
     justify-content: space-evenly;
-    background-color: color-mix(in hsl shorter hue, black 20%, yellow 20%);
     padding:20px;
 }
 
@@ -139,7 +138,9 @@ body{
     }
     
     .two-column-wrapper{
-        display:inline-block;
+        display:inherit;
+        text-align: justify;
+        font-stretch: condensed;
     }
     .nav-wrapper{
         padding: 0;
@@ -149,7 +150,7 @@ body{
     }
 
     .profile-content-wrapper{
-        text-align: justify;
+
     }
     
     

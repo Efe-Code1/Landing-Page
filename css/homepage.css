@@ -127,8 +127,15 @@ body{
     padding:20px;
 }
 
+/* Contact */
+
 #contact{
     color:white;
+}
+
+.klaus{
+    width:75%;
+    padding-left: 350px;
 }
 
 @media screen and (max-width: 1000px){
@@ -140,7 +147,6 @@ body{
     .two-column-wrapper{
         display:inherit;
         text-align: justify;
-        font-stretch: condensed;
     }
     .nav-wrapper{
         padding: 0;
@@ -149,36 +155,8 @@ body{
         display: block;
     }
 
-    .profile-content-wrapper{
-
+    .klaus{
+        width:95%;
+        padding-left: 25px;
     }
-    
-    
 }
-/* .three-column-wrapper{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-} */
-
-/* .firstone h1{
-    padding: 7px;
-    color:blue;
-    text-shadow:black 2px 2px 2px;
-    font-family: cursive;
-    text-transform: uppercase;
-}
-.list {
-    margin:10px;
-    padding:10px;
-    color:black;
-    text-shadow:2px 2px 2px white;
-    font-family: cursive;
-}
-
-.secondone h1{
-    color:blue;
-    text-shadow:black 2px 2px 2px;
-    font-family: cursive;
-    text-transform: uppercase;
-} */
-

@@ -48,6 +48,7 @@ body{
 nav{
     margin: 0;
     width:100%;
+    padding: 40px;
 }
 
 ul{
@@ -74,8 +75,8 @@ ul.topnav li a{
 }
 
 ul.topnav li a:hover{
-    background-color: blue;
-    color: white;
+    background-color:  #66caff;
+    color: black;
     padding: 15px;
 }
 
@@ -85,7 +86,7 @@ ul.topnav li.dropdownIcon{
 
 /* Custom Styles */
 div.leftSide-col{
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 h1.large{
@@ -113,8 +114,12 @@ input[type="password"]{
 }
 
 
-/* Mobile */
+/* Mobile Resolution */
 @media screen and (max-width:1000px){
+    nav{
+        padding: 0%;
+    }
+    
     ul.topnav li:not(:nth-child(1)){
         display:none;
     }

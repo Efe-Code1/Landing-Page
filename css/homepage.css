@@ -95,13 +95,19 @@ body{
 
 
 /* About Page */
+.content-wrapper{
+    width: 100%;
+    display: grid;
+}
 .two-column-wrapper{
     display:grid;
+    margin-top: 30px;
     grid-template-columns: 1fr 1fr;
 }
 
 .profile-image-wrapper img{
     width:100%;
+    padding: 10px;
 }
 
 .profile-image-wrapper img:hover{
@@ -112,6 +118,7 @@ body{
 .profile-content-wrapper{
     padding:30px;
     color:white;
+    font-size: larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -121,13 +128,12 @@ body{
     text-transform: uppercase;
 }
 
+/* Contact Me*/
 .contact{
     display: flex;
     justify-content: space-evenly;
     padding:20px;
 }
-
-/* Contact */
 
 #contact{
     color:white;
@@ -139,24 +145,23 @@ body{
 }
 
 @media screen and (max-width: 1000px){
-    .nav-wrapper{
+    /* .nav-wrapper{
         padding: 0;
         display: block
-    }
+    } */
     
     .two-column-wrapper{
-        display:inherit;
+        display:block;
         text-align: justify;
     }
+    
     .nav-wrapper{
         padding: 0;
-    }
-    .container{
-        display: block;
     }
 
     .klaus{
         width:95%;
         padding-left: 25px;
     }
+
 }

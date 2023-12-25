@@ -189,9 +189,13 @@ input[type="password"]{
 }
 
 footer{
-    background-color: lightgray;
+    background-image: url(images/plain\ background.jpg);
     color: black;
     padding-left:10%;
+    /* padding: 20px; */
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
 }
 
 footer h1{

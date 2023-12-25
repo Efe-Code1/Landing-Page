@@ -136,7 +136,7 @@ p{
 article h1{
     color: white;
     text-shadow: 2px 2px 2px black;
-    margin: 10px;
+    margin: 5px;
     font-size: 30px;
     padding: 20px;
 }
@@ -144,12 +144,12 @@ article h1{
 article p{
     color: white;
     text-shadow: 2px 2px 2px black;
-    margin: 10px;
+    margin: 5px;
     font-size: 20px;
     display: block;
     text-align: justify;
     padding: 20px;
-    line-height: ;
+    line-height: 30px;
 }
 
 article a{

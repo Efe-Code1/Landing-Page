@@ -10,7 +10,7 @@ body{
     color:white;
     background-image: url(Boats.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -93,12 +93,14 @@ div.leftSide-col{
 
 h1.section2Header{
     text-align: center;
+    margin: 10px;
+
 }
 
 div.box{
     padding: 10px;
     text-align: center;
-    margin: 10px;
+    margin: 20px;
     background-color: aliceblue;
     /* box-shadow: 5px 5px 10px  aliceblue; */
     /* 0 2px 3px 0 rgba(0,0,0,.1); */

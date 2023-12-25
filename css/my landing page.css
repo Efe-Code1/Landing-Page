@@ -12,6 +12,7 @@ body{
 .nav-wrapper{
     display:flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .left-side{
@@ -49,10 +50,10 @@ body{
 }
 
 .lets{
-    padding-left: 50px;
-    padding-top: 50px;
+    margin: 20px;
+    /* padding-left: 50px;
+    padding-top: 50px; */
     color: white;
-    line-height: 300%;
     font-size: xx-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 2px 2px 2px black;
@@ -67,8 +68,8 @@ body{
     text-align: center;
 }
 
-span > a{
-    color: mediumblue;
+.lets a{
+    color: #66caff;
 }
 
 @media screen and (max-width:1000px){

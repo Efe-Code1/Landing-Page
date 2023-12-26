@@ -11,7 +11,6 @@ body{
     background-image: url(Boats.jpg);
     background-position: center;
     background-size: auto;
-    font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -129,12 +128,12 @@ div.program img{
 }
 
 label{
-    font-size: 25px;
+    font-size: 10px;
     color: black;
 }
 
 p{
-    font-size: 18px;
+    font-size: 10px;
     line-height: 1.2;
     color: black;
 }
@@ -148,14 +147,14 @@ article h1{
     text-shadow: 2px 2px 2px black;
     margin: 5px;
     font-size: 30px;
-    padding: 20px;
+    padding: 10px;
 }
 
 article p{
     color: white;
     text-shadow: 2px 2px 2px black;
     margin: 5px;
-    font-size: 20px;
+    font-size: 10px;
     display: block;
     text-align: justify;
     padding: 20px;
@@ -167,7 +166,7 @@ article a{
 }
 
 button{
-    font-size: 21px;
+    font-size: 10px;
     color: white;
     display: block;
     padding: 10px 20px;

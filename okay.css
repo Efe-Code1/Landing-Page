@@ -130,6 +130,7 @@ div.program img{
 label{
     font-size: larger;
     color: black;
+    font-weight: bold;
 }
 
 p{
@@ -289,7 +290,7 @@ footer li{
 
     article h1{
         color: white;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     div.leftSide-col,
@@ -321,7 +322,7 @@ footer li{
     }
 
     body{
-        font-size: 15px;
+        font-size: medium;
         margin: 0;
     }
 

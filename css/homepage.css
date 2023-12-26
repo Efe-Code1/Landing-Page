@@ -155,4 +155,8 @@ body{
         padding: 0;
     }
 
+    .profile-content-wrapper{
+        font-size: medium;
+    }
+
 }

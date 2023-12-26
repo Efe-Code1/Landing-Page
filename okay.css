@@ -128,12 +128,12 @@ div.program img{
 }
 
 label{
-    font-size: 10px;
+    font-size: larger;
     color: black;
 }
 
 p{
-    font-size: 10px;
+    font-size: medium;
     line-height: 1.2;
     color: black;
 }
@@ -147,14 +147,14 @@ article h1{
     text-shadow: 2px 2px 2px black;
     margin: 5px;
     font-size: 30px;
-    padding: 10px;
+    padding: 20px;
 }
 
 article p{
     color: white;
     text-shadow: 2px 2px 2px black;
     margin: 5px;
-    font-size: 10px;
+    font-size: larger;
     display: block;
     text-align: justify;
     padding: 20px;
@@ -166,7 +166,7 @@ article a{
 }
 
 button{
-    font-size: 10px;
+    font-size: larger;
     color: white;
     display: block;
     padding: 10px 20px;
@@ -284,7 +284,12 @@ footer li{
 
     article p{
         color: white;
-        font-size: large;
+        font-size: 15px;
+    }
+
+    article h1{
+        color: white;
+        font-size: 15px;
     }
 
     div.leftSide-col,
@@ -316,7 +321,8 @@ footer li{
     }
 
     body{
-        font-size: 10px;
+        font-size: 15px;
+        margin: 0;
     }
 
 }

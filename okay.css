@@ -202,8 +202,12 @@ input[type="submit"]{
     width: 400px;
     padding: 6px;
     border-radius: 10px;
-    background-color: greenyellow;
+    background-color: lightgray;
     font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    background-color: greenyellow;
 }
 
 footer{

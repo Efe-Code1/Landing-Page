@@ -106,8 +106,8 @@ body{
 }
 
 .profile-image-wrapper img{
-    width:100%;
-    padding: 10px;
+    width:90%;
+    padding: 20px;
 }
 
 .profile-image-wrapper img:hover{

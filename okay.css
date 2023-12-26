@@ -312,6 +312,10 @@ footer li{
         align-items: center;
     }
 
+    body{
+        font-size: 10px;
+    }
+
 }
 
 

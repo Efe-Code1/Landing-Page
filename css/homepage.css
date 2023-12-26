@@ -139,11 +139,6 @@ body{
     color:white;
 }
 
-.klaus{
-    width:75%;
-    padding-left: 350px;
-}
-
 @media screen and (max-width: 1000px){
     /* .nav-wrapper{
         padding: 0;
@@ -157,11 +152,6 @@ body{
     
     .nav-wrapper{
         padding: 0;
-    }
-
-    .klaus{
-        width:95%;
-        padding-left: 25px;
     }
 
 }

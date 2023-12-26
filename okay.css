@@ -99,8 +99,6 @@ h1.section2Header{
     text-align: center;
     margin: 10px;
     text-shadow:2px 2px 2px black;
-
-
 }
 
 div.box{
@@ -322,7 +320,7 @@ footer li{
     }
 
     body{
-        font-size: medium;
+        font-size: 15px;
         margin: 0;
     }
 

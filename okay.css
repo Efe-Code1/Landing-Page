@@ -1,8 +1,4 @@
 /* Defaults */
-header, nav, footer{
-    /* display:block; */
-}
-
 body{
     margin: 0;
     padding: 0;
@@ -95,6 +91,7 @@ div.leftSide-col h1,h2{
     text-shadow:2px 2px 2px black;
 }
 
+/* Excel your way to the top */
 h1.section2Header{
     text-align: center;
     margin: 10px;
@@ -106,23 +103,10 @@ div.box{
     text-align: center;
     margin: 20px;
     background-color: whitesmoke;
-    /* box-shadow: 5px 5px 10px  aliceblue; */
-    /* 0 2px 3px 0 rgba(0,0,0,.1); */
 }
 
 div.icon{
     width: 100%;
-}
-
-div.program{
-    padding: 20px;
-    /* background-color: midnightblue; */
-    /* box-shadow: -2px -2px 10px 2px midnightblue; */
-}
-
-div.program img{
-    margin: 10px;
-    width: 70%;
 }
 
 label{
@@ -139,6 +123,31 @@ p{
 
 .col-12 a{
     text-decoration: none;
+}
+
+button{
+    font-size: larger;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    margin: 9px;
+    border-radius: 50px;
+    background-color: #1979ff;
+}
+
+button.learnMore{
+    display: block;
+    margin: auto;
+}
+
+/* Getting Started */
+div.program{
+    padding: 20px;
+}
+
+div.program img{
+    margin: 10px;
+    width: 70%;
 }
 
 article h1{
@@ -164,23 +173,8 @@ article a{
     color: #66caff;
 }
 
-button{
-    font-size: larger;
-    color: white;
-    display: block;
-    padding: 10px 20px;
-    margin: 9px;
-    border-radius: 50px;
-    background-color: #1979ff;
-}
-
-button.learnMore{
-    display: block;
-    margin: auto;
-}
 
 /* Input */
-
 input[type="text"]{
     font-size: 15px;
     width: 400px;
@@ -208,14 +202,12 @@ input[type="submit"]:hover{
     background-color: greenyellow;
 }
 
+/* footer */
 footer{
     background-image: url(images/white\ plain\ bcg.jpg);
     color: black;
     padding-left:10%;
-    /* padding: 20px; */
-    padding-bottom: 40px;
-    padding-top: 40px;
-    
+    padding-bottom: 20px;
 }
 
 footer h1{
@@ -231,6 +223,10 @@ footer li{
     line-height: 30px;
     color: blue;
     text-decoration: underline;
+}
+
+footer div.col-3{
+    font-size: small;
 }
 
 /* Mobile Resolution */

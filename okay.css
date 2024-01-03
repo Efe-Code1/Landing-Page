@@ -4,7 +4,7 @@ body{
     padding: 0;
     width: 100%;
     color:white;
-    background-image: url(Boats.jpg);
+    background-image: url(images/animated\ laptop.jpg);
     background-position: center;
     background-size: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -151,16 +151,15 @@ div.program img{
 }
 
 article h1{
-    color: white;
-    text-shadow: 2px 2px 2px black;
+    color: black;
+    text-decoration: underline;
     margin: 5px;
     font-size: 30px;
     padding: 20px;
 }
 
 article p{
-    color: white;
-    text-shadow: 2px 2px 2px black;
+    color: black;
     margin: 5px;
     font-size: larger;
     display: block;
@@ -170,7 +169,8 @@ article p{
 }
 
 article a{
-    color: #66caff;
+    color: navy;
+    font-weight: bold;
 }
 
 
@@ -278,12 +278,12 @@ footer div.col-3{
     }
 
     article p{
-        color: white;
+        color: black;
         font-size: 15px;
     }
 
     article h1{
-        color: white;
+        color: black;
         font-size: 20px;
     }
 

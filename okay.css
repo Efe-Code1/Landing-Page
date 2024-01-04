@@ -318,6 +318,9 @@ footer div.col-3{
     body{
         font-size: 15px;
         margin: 0;
+        background-image: url(images/animated\ laptop.jpg);
+        background-position: center;
+        background-size: contain;
     }
 
 }

@@ -99,7 +99,7 @@ h1.head{
 p.para{
     color: white;
     line-height: 1.6rem;
-    font-size: 17px;
+    font-size: larger;
     text-align: justify;
 }
 
@@ -296,6 +296,13 @@ footer div.col-3{
     article h1{
         color: white;
         font-size: 20px;
+    }
+
+    p.para{
+        color: white;
+        line-height: 1.6rem;
+        font-size: 15px;
+        text-align: justify;
     }
 
     div.leftSide-col,

@@ -84,11 +84,23 @@ ul.topnav li.dropdownIcon{
 
 /* Custom Styles */
 div.leftSide-col{
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
-div.leftSide-col h1,h2{
-    text-shadow:2px 2px 2px black;
+div.rightSide-col{
+    margin-left: 10%;
+}
+
+h1.head{
+    color: white;
+    text-shadow: 2px 2px 2px  black;
+}
+
+p.para{
+    color: white;
+    line-height: 1.6rem;
+    font-size: 17px;
+    text-align: justify;
 }
 
 /* Excel your way to the top */
@@ -174,7 +186,7 @@ article a{
 
 
 /* Input */
-input[type="text"]{
+/* input[type="text"]{
     font-size: 15px;
     width: 400px;
     padding: 5px;
@@ -199,11 +211,11 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
     background-color: greenyellow;
-}
+} */
 
 /* footer */
 footer{
-    background-image: url(images/white\ plain\ bcg.jpg);
+    background-image: url(/images/white\ plain\ bcg.jpg);
     color: black;
     padding-left:10%;
     padding-bottom: 20px;
@@ -290,7 +302,7 @@ footer div.col-3{
     div.rightSide-col{
         margin: 15px;
     }
-
+/* 
     input[type="text"]{
         width: 300px;
     }
@@ -301,7 +313,7 @@ footer div.col-3{
     
     input[type="submit"]{
         width: 300px;
-    }
+    } */
     
     .videoContainer iframe{
         width:100%;

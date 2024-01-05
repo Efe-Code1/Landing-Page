@@ -1,0 +1,71 @@
+body.login-body{
+    background-color: lightgrey;
+    /* background-image: url(/images/20230612_124338.jpg); */
+}
+
+.container.login-container{
+    margin-top: 10%;
+}
+
+.card.login-card{
+    /* padding: 40px 0 20px; */
+    background-color: gainsboro;
+    box-shadow: 2px 2px 5px;
+    width: 70%;
+    margin-left: 13%;
+}
+
+img.login-image{
+    margin: auto;
+    display: block;
+}
+
+form.login-form{
+    margin: auto;
+}
+
+button.login-button{
+    width:100%;
+    font-weight: bold;
+}
+
+
+a{
+    color: blue;
+}
+
+
+a.create-new-account{
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: blue;
+}
+
+/* Pop-Up Animation Styles */
+#pop-up{
+    top: -500px;
+    transform-origin: 10px 10px;
+    animation
+    :drop 1s ease forwards, 
+    swing 5s 3s ease forwards;
+}
+
+/* Key Frames and Media Screen Styles*/
+@keyframes drop{
+    0%{opacity: 0.5;}
+    100%{ transform: translateY(500px); opacity: 5;}
+}
+
+
+/* @keyframes swing{
+    0%{transform: translateY(500px) rotateZ(0deg)}
+    40%{transform: translateY(500px) rotateZ(60deg)}
+    70%{transform: translateY(500px) rotateZ(45deg)}
+    100%{transform: translateY(500px) rotateZ(50deg)}
+} */
+
+@media screen and (max-width:1000px){
+    #pop-up{
+        width: 80%;
+    }

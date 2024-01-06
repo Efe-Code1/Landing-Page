@@ -13,7 +13,7 @@ body{
 }
 
 .active-nav-link a{
-    border-bottom: 2px solid aliceblue !important;
+    border-bottom: 2px solid blue !important;
 }
 
 .nav-wrapper > .left-side > div {
@@ -24,7 +24,7 @@ body{
 
 .nav-link-wrapper a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: black;
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
@@ -101,8 +101,9 @@ body{
 }
 
 .profile-image-wrapper img{
-    width:90%;
-    padding: 20px;
+    width:100%;
+    box-sizing: border-box;
+    box-shadow: 3px 2px 5px 2px;
 }
 
 .profile-image-wrapper img:hover{
@@ -113,14 +114,14 @@ body{
 .profile-content-wrapper{
     padding:30px;
     line-height: 30px;
-    color:white;
-    text-shadow: 2px 1px black;
+    text-align: justify;
+    color:black;
     font-size: larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .profile-content-wrapper h1{
-    color:white;
+    color:black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
 }
@@ -129,7 +130,7 @@ body{
 .contact{
     display: flex;
     justify-content: space-evenly;
-    padding:20px;
+    padding:10px;
 }
 
 #contact{
@@ -153,6 +154,12 @@ body{
 
     .profile-content-wrapper{
         font-size: medium;
+    }
+
+    .profile-image-wrapper img{
+        width:95%;
+        background-color: lightgray;
+        box-shadow: 4px 2px 5px 2px;
     }
 
 }

@@ -242,7 +242,7 @@ footer div.col-3{
 }
 
 /* Mobile Resolution */
-@media screen and (max-width:1000px){
+@media screen and (max-width:800px){
     nav{
         padding: 0%;
     }
@@ -309,6 +309,10 @@ footer div.col-3{
     div.leftSide-col,
     div.rightSide-col{
         margin: 15px;
+    }
+
+    .section2Header{
+        font-size:25px;
     }
 /* 
     input[type="text"]{

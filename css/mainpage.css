@@ -245,14 +245,14 @@ footer div.col-3{
         padding: 0%;
     }
     
-    ul.topnav li:not(:nth-child(1)){
-        /* display:none; */
+    /* ul.topnav li:not(:nth-child(1)){
+        display:none;
     }
 
     ul.topnav li.dropdownIcon{
         display:block;
         float:right;
-    }
+    } */
 
     ul.topnav.responsive li.dropdownIcon{
         position: absolute;

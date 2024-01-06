@@ -6,7 +6,8 @@ body{
     /* width:100%;
     height:100%; */
     background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
 }
 
 .nav-wrapper{
@@ -87,11 +88,9 @@ body{
 
     body{
         background-image:url(/images/Boats.jpg);
-        width:100%;
-        height:100%;
         background-position: center;
-        background-size: cover;
-        background-repeat: repeat-y;
+        background-size: auto;
+        background-repeat: initial;
         /* font-size: 10px; */
     }
     

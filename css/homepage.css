@@ -144,6 +144,7 @@ body{
 
     .profile-content-wrapper{
         font-size: medium;
+        padding:10px;
     }
 
     .profile-image-wrapper img{

@@ -1,14 +1,14 @@
 /* Defaults */
-body{
+  @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+  body{
     margin: 0;
     padding: 0;
     width: 100%;
-    color:black;
-    background-color: lightgray;
-    /* background-image: url(/images/animated\ laptop_1.jpg);
+    background-image: url(/images/Sky\ Blur.jpg);
     background-position: center;
-    /* background-size: auto;  */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    background-size: cover;
+    font-family: 'Jost', sans-serif;
 }
 
 .container{
@@ -66,7 +66,7 @@ ul.topnav li{
 } */
 
 ul.topnav li a{
-    color: black;
+    color: white;
     font-weight: bolder;
     text-decoration: none;
     display: block;
@@ -93,12 +93,13 @@ div.rightSide-col{
 }
 
 h1.head{
-    color: black;
+    color: #0099ff;
+    text-shadow: 2px 2px black;
 }
 
 p.para{
-    color: black;
-    line-height: 1.6rem;
+    color: white;
+    line-height: 1.9rem;
     font-size: larger;
     text-align: justify;
 }
@@ -107,6 +108,8 @@ p.para{
 h1.section2Header{
     text-align: center;
     margin: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 
 div.box{
@@ -130,6 +133,10 @@ p{
     font-size: medium;
     line-height: 1.2;
     color: black;
+}
+
+.videoContainer iframe{
+    height: 500px;
 }
 
 .col-12 a{
@@ -162,15 +169,15 @@ div.program img{
 }
 
 article h1{
-    color: black;
-    text-decoration: underline;
+    color: white;
+    text-shadow: 2px 2px black;
     margin: 5px;
     font-size: 30px;
     padding: 20px;
 }
 
 article p{
-    color: black;
+    color: white;
     margin: 5px;
     font-size: larger;
     display: block;
@@ -180,7 +187,7 @@ article p{
 }
 
 article a{
-    color: blue;
+    color: greenyellow;
 }
 
 
@@ -288,19 +295,19 @@ footer div.col-3{
     }
 
     article p{
-        color: black;
+        color: white;
         font-size: 15px;
         padding: 3px;
     }
 
     article h1{
-        color: black;
+        color: white;
         font-size: 20px;
         padding: 3px;
     }
 
     p.para{
-        color: black;
+        color: white;
         line-height: 1.6rem;
         font-size: 15px;
         text-align: justify;

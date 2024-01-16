@@ -13,7 +13,7 @@ body{
 }
 
 .active-nav-link a{
-    border-bottom: 2px solid blue !important;
+    border-bottom: 2px solid white !important;
 }
 
 .nav-wrapper > .left-side > div {

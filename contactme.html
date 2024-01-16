@@ -15,8 +15,22 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
+            body{
+                /* width:100%;
+                height:100%; */
+                background-image: url(/images/Boats.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+
             section{
                 padding:50px 0;
+            }
+
+            a.message{
+                margin-left: 220px;
+                color: dodgerblue;
+                font-size: x-large;
             }
 
             .nav-link-wrapper a{
@@ -32,15 +46,14 @@
             color:black
             }
 
-            body{
-                /* width:100%;
-                height:100%; */
-                background-image: url(/images/Boats.jpg);
-                background-position: center;
-                background-size: cover;
-            }
             @media screen and (max-width: 1000px) {
                 body{ zoom: 170%;}
+            }
+
+            a.message{
+                margin-left: 180px;
+                color: dodgerblue;
+                font-size: x-large;
             }
         </style>
     </head>
@@ -79,23 +92,20 @@
             </div>
             <br><hr>
             <div class="text-center">
-                <h4>To leave a message, fill in the form below</h4>
+                <h4>To leave me a message. Click on the link below.</h4>
             </div>
             <div class="container">
                 <div class="row justify-content-center my-5">
                     <div class="col-lg-6 col-sm-10">
-                        <form action="">
+
+                        <a href="mailto:efezzy321@gmail.com" class="message">Click Here!</a>
+                        <!-- <form action="">
                             <label for="email" class="form-label fw-bold">Email Address:</label>
                             <div class="mb-4 input-group">
                                 <span class="input-group-text">
                                 <i class="bi bi-envelope-fill"></i>
                                 </span>
                                 <input type="email" class="form-control" id="email">
-                                <!-- <span class="input-group-text">
-                                    <span class="tt" data-bs-placement="bottom" title="Enter an email i can reply to">
-                                        <i class="bi bi-question-circle"></i>
-                                    </span>
-                                </span> -->
                             </div>
                             
                             
@@ -105,11 +115,6 @@
                                 <i class="bi bi-person-fill"></i>
                                 </span>
                                 <input type="text" class="form-control" id="name">
-                                <!-- <span class="input-group-text">
-                                    <span class="tt" data-bs-placement="bottom" title="Your full name">
-                                        <i class="bi bi-question-circle"></i>
-                                    </span>
-                                </span> -->
                             </div>
 
                             <label for="name" class="form-label fw-bold">Message:</label>
@@ -119,17 +124,12 @@
                                 </span>
                                     <textarea class="form-control" id="name" placeholder="leave a message"
                                     cols="10" rows="10"></textarea>
-                                <!-- <span class="input-group-text">
-                                    <span class="tt" data-bs-placement="bottom" title="explain yourself">
-                                        <i class="bi bi-question-circle"></i>
-                                    </span>
-                                </span> -->
                             </div>
 
                             <div class="mb-4 text-center">
                                 <input type="submit" class="btn btn-primary">
                             </div>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
 

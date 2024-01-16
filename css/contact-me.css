@@ -26,7 +26,7 @@ color:black
 
 
 .nav-wrapper{
-    padding:30px;
+    padding:10px;
 }
 
 .left-side{
@@ -66,6 +66,11 @@ a.message{
 }
 
 @media screen and (max-width: 1000px) {
+    body{
+        background-image: url(/images/jungle.jpg);
+        background-position: top;
+    }
+    
     a.message{
         margin-left: 150px;
         font-size: larger;

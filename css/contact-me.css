@@ -4,6 +4,7 @@
 body{
     background-image: url(/images/jungle.jpg);
     background-size: cover;
+    font-family: "jost";
 }
 
 section{

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+/* Master Styles */
+body{
+    background-image: url(/images/jungle.jpg);
+    background-size: cover;
+}
+
+section{
+    padding:50px 0;
+}
+
+/* Nav Styles */
+.nav-link-wrapper a{
+font-family: 'Jost', sans-serif;
+color: white;
+font-weight: bold;
+text-decoration: none;
+padding: 6px;
+}
+
+.nav-link-wrapper a:hover{
+background-color: #66caff;
+color:black
+}
+
+
+.nav-wrapper{
+    padding:30px;
+}
+
+.left-side{
+    display: flex;
+}
+
+.active-nav-link a{
+    border-bottom: 2px solid white !important;
+}
+
+.nav-wrapper > .left-side > div {
+    margin:20px;
+    font-size: 0.9em;
+}
+
+
+.nav-link-wrapper a:hover{
+    background-color: #66caff;
+    color:black
+}
+
+a.message{
+    margin-left: 220px;
+    color: gold;
+    font-size: x-large;
+}
+
+/* Contact Me*/
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+}
+
+#contact{
+    color:white;
+}
+
+@media screen and (max-width: 1000px) {
+    a.message{
+        margin-left: 150px;
+        font-size: larger;
+    }
+}

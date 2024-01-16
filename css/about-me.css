@@ -1,0 +1,87 @@
+/* Master Styles */
+body{
+    margin: 0;
+}
+
+/* Nav Styles */
+.nav-wrapper{
+    padding:30px;
+}
+
+.left-side{
+    display: flex;
+}
+
+.active-nav-link a{
+    border-bottom: 2px solid white !important;
+}
+
+.nav-wrapper > .left-side > div {
+    margin:20px;
+    font-size: 0.9em;
+}
+
+
+.nav-link-wrapper a:hover{
+    background-color: #66caff;
+    color:black
+}
+
+/* About Page */
+.content-wrapper{
+    width: 100%;
+    display: grid;
+}
+.two-column-wrapper{
+    display:grid;
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img{
+    width:100%;
+    box-sizing: border-box;
+    box-shadow: 3px 2px 5px 2px;
+}
+
+.profile-image-wrapper img:hover{
+    position: relative;
+    bottom:5px;
+}
+
+.profile-content-wrapper{
+    padding:30px;
+    line-height: 30px;
+    text-align: justify;
+    color: white;
+    font-size: larger;
+}
+
+.profile-content-wrapper h1{
+    color:white;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 1000px){
+    .two-column-wrapper{
+        display:block;
+        text-align: justify;
+    }
+    
+    .nav-wrapper{
+        padding: 0;
+    }
+
+    .profile-content-wrapper{
+        font-size: medium;
+        padding:15px;
+    }
+
+    .profile-image-wrapper img{
+        width:95%;
+        background-color: lightgray;
+        box-shadow: 4px 2px 5px 2px;
+    }
+
+}

@@ -1,6 +1,12 @@
 /* Master Styles */
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
 body{
+    background-image: url(/images/the\ dark.jpg);
+    background-size: cover;
+    width:100%;
     margin: 0;
+    font-family: 'jost';
 }
 
 /* Nav Styles */
@@ -21,6 +27,12 @@ body{
     font-size: 0.9em;
 }
 
+.nav-link-wrapper a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
 
 .nav-link-wrapper a:hover{
     background-color: #66caff;
@@ -33,55 +45,95 @@ body{
     display: grid;
 }
 .two-column-wrapper{
-    display:grid;
-    margin-top: 30px;
-    grid-template-columns: 1fr 1fr;
+    display:flex;
+    justify-content: space-between;
+
 }
 
-.profile-image-wrapper img{
-    width:100%;
-    box-sizing: border-box;
-    box-shadow: 3px 2px 5px 2px;
+.smallscreen{
+    display: none;
 }
 
-.profile-image-wrapper img:hover{
+.largescreen{
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.rightside{
+    margin-top: 40px;
+    margin-right: 90px;
+}
+
+.largescreen:hover{
     position: relative;
     bottom:5px;
 }
 
 .profile-content-wrapper{
-    padding:30px;
     line-height: 30px;
     text-align: justify;
     color: white;
-    font-size: larger;
+    font-size:larger ;
+    display: flex;
 }
 
 .profile-content-wrapper h1{
     color:white;
-    text-transform: uppercase;
+    font-size: xx-large;
 }
 
 
 @media screen and (max-width: 1000px){
-    .two-column-wrapper{
-        display:block;
-        text-align: justify;
+    body{
+        font-size: 15px;
+        background-image: url(/images/the\ dark.jpg);
+        background-size: auto;
+        background-position: top;
     }
-    
+
     .nav-wrapper{
         padding: 0;
     }
 
     .profile-content-wrapper{
+        line-height: 2rem;
+        text-align: justify;
+        color: white;
         font-size: medium;
-        padding:15px;
+        margin: 20px;
     }
 
-    .profile-image-wrapper img{
-        width:95%;
-        background-color: lightgray;
-        box-shadow: 4px 2px 5px 2px;
+    .rightside{
+        margin: 0;
     }
 
+    .rightside h1{
+        font-size: 25px;
+    }
+
+    .smallscreen{
+        display: block;
+        width:30%;
+        float: left;
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+
+    .smallscreen:hover{
+        position: relative;
+        bottom:5px;
+    }
+
+    .head{
+        margin-left: 10px;
+    }
+
+    .para{
+        margin-left: 10px;
+    }
+
+    .largescreen{
+        display: none;
+    }
 }

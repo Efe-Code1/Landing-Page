@@ -195,33 +195,6 @@ article a{
 }
 
 
-/* Input */
-/* input[type="text"]{
-    font-size: 15px;
-    width: 400px;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-input[type="password"]{
-    font-size: 15px;
-    width: 400px;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-input[type="submit"]{
-    font-size: 15px;
-    width: 400px;
-    padding: 6px;
-    border-radius: 10px;
-    background-color: lightgray;
-    font-weight: bold;
-}
-
-input[type="submit"]:hover{
-    background-color: greenyellow;
-} */
 
 /* footer */
 footer{
@@ -257,22 +230,13 @@ footer div.col-3{
         background-image: url(/images/Sky\ Blur.jpg);
         background-position: center;
         background-size: auto;
-        font-family: 'Jost', sans-serif;
+        font-family: 'Titillium Web', sans-serif;
     }
     
     nav{
         padding: 0%;
     }
     
-    /* ul.topnav li:not(:nth-child(1)){
-        display:none;
-    }
-
-    ul.topnav li.dropdownIcon{
-        display:block;
-        float:right;
-    } */
-
     ul.topnav.responsive li.dropdownIcon{
         position: absolute;
         top: 0;
@@ -333,18 +297,6 @@ footer div.col-3{
     .section2Header{
         font-size:25px;
     }
-/* 
-    input[type="text"]{
-        width: 300px;
-    }
-
-    input[type="password"]{
-        width: 300px;
-    }
-    
-    input[type="submit"]{
-        width: 300px;
-    } */
     
     .videoContainer iframe{
         width:100%;

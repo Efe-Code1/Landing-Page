@@ -1,12 +1,12 @@
 /* Master Styles */
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
 body{
     background-image: url(/images/the\ dark.jpg);
     background-size: cover;
     width:100%;
     margin: 0;
-    font-family: 'jost';
+    font-family: 'Titillium Web';
 }
 
 /* Nav Styles */

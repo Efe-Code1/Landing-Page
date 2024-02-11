@@ -160,6 +160,7 @@ button{
 button.learnMore{
     display: block;
     margin: auto;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 /* Getting Started */
